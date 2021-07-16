@@ -1,0 +1,64 @@
+body{
+    padding: 20px 100px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+p{
+    text-align: justify;
+    font-size: 16px;
+}
+#color-box{
+    text-align: right;
+}
+.btn{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#white{
+    background: white;
+}
+#green{
+    background-color: green;
+    cursor: pointer;
+}
+#yellow{
+    background-color: yellow;
+    cursor: pointer;
+}
+#black{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+/********* Responsive CSS *********/
+
+/* max-width: 769px */
+@media only screen and (max-width: 769px){
+    body{
+        padding: 20px 40px
+    }
+
+}
+
+/* max-width: 541px */
+@media only screen and (max-width: 541px){
+    body{
+        padding: 15px 20px
+    }
+    .btn{
+        width: 20px;
+        height: 20px;
+    }
+
+}
